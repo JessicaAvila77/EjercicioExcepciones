@@ -33,9 +33,16 @@ namespace EjercicioExcepciones
                 return N1 / N2;                     
         }
 
+        public void Imprimir()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("------Resultado de operaciones---------");
+            Console.WriteLine($"El resultado de la suma es: {Suma()}");
+            Console.WriteLine($"El resultado de La resta es: {Resta()}");
+            Console.WriteLine($"El resultado de la multiplicacion es: {Multiplicacion()}");
+            Console.WriteLine($"El resulado de la division es: {Division()}");
 
-
-
+        }
 
     }
 }
